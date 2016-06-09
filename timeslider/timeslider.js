@@ -725,7 +725,7 @@ define(function(require, exports, module) {
              * Sets the loading state of the timeslider to match its active document's revisions fetching
              * @property {Boolean} loading
              */
-            set loading(loading) { setLoading(loading); },
+            set loading(ldng) { setLoading(ldng); },
             /**
              * Gets the timeslider's active document or null, if not any
              * @property {Document} activeDocument
